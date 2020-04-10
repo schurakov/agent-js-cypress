@@ -5,10 +5,12 @@ context('Example Cypress Test', () => {
     });
     context('Check content Cypress example page', () => {
       it('should contain Cypress', () => {
+        cy.rpwarn('blabla');
         cy.contains('Cypress');
       });
 
       it('should contain Commands', () => {
+        cy.rpwarn('blabla2');
         cy.contains('Commands').screenshot();
       });
 

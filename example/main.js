@@ -13,7 +13,12 @@ const deleteTempFile = (filename) => {
   fs.unlinkSync(filename);
 };
 
-cypress.run().then(
+cypress.run({
+  // record: true,
+  // key: 'c99d635b-43ec-4a49-a3b7-ce149fef53c0',
+  // ciBuildId: 'build1234',
+  // parallel: true,
+}).then(
   () => {
     fs.readFile(cypressConfigFile, 'utf8', (err, data) => {
       if (err) {

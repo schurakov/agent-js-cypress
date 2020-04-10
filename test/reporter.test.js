@@ -1,5 +1,5 @@
 const { getDefaultConfig, RPClient, MockedDate, RealDate, currentDate } = require('./mock/mock');
-const Reporter = require('./../src/reporter');
+const Reporter = require('./../lib/reporter');
 
 describe('reporter script', () => {
   let reporter;

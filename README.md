@@ -114,7 +114,7 @@ Runs support following options:
 
 | Parameter             | Description                                                                                                       |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| token                 | User's Report Portal token from which you want to send requests. It can be found on the profile page of this user. |
+| token                 | User's Report Portal token from which you want to send requests. It can be found on the profile page of this user.|
 | endpoint              | URL of your server. For example 'https://server:8080/api/v1'.                                                     |
 | launch                | Name of launch at creation.                                                                                       |
 | project               | The name of the project in which the launches will be created.                                                    |
