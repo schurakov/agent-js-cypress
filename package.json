@@ -1,7 +1,7 @@
 {
   "name": "agent-js-cypress",
   "version": "1.1.2",
-  "description": "This agent helps Cypress to communicate with Report Portal",
+  "description": "Report Portal plugin for Cypress fork",
   "main": "index.js",
   "scripts": {
     "eslint": "eslint \"./**/*.js\"",
@@ -18,7 +18,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/reportportal/agent-js-cypress"
+    "url": "https://github.com/schurakov/agent-js-cypress"
   },
   "dependencies": {
     "glob": "7.1.3",
