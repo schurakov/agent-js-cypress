@@ -1,5 +1,5 @@
 {
-  "name": "agent-js-cypress",
+  "name": "@schurakov/agent-js-cypress",
   "version": "1.1.2",
   "description": "Report Portal plugin for Cypress fork",
   "main": "index.js",
